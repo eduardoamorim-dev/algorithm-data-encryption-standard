@@ -120,4 +120,5 @@ print(f"Decifrado: {decrypted}")
 ---
 
 **Nota**: Para uso em produção, utilize bibliotecas estabelecidas como `cryptography` ou `pycryptodome` com algoritmos modernos como AES-256.
-***Referências: https://csrc.nist.gov/files/pubs/fips/46-3/final/docs/fips46-3.pdf
+
+**Referências:** https://csrc.nist.gov/files/pubs/fips/46-3/final/docs/fips46-3.pdf
