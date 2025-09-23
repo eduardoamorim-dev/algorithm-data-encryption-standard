@@ -2,7 +2,7 @@
 
 Uma implementação completa do algoritmo DES em Python puro, sem dependências externas, com sistema de logging detalhado para fins educacionais.
 
-## 🔒 Características
+## Características
 
 - **Implementação pura em Python** - Sem bibliotecas de criptografia
 - **Sistema de logging completo** - Visualize cada passo do algoritmo
@@ -10,7 +10,7 @@ Uma implementação completa do algoritmo DES em Python puro, sem dependências 
 - **Modo ECB** - Cifragem/decifragem de mensagens de qualquer tamanho
 - **Padding PKCS#5** - Tratamento automático de blocos incompletos
 
-## 🚀 Uso Rápido
+## Uso Rápido
 
 ```python
 from des_implementation import encrypt_message, decrypt_message
@@ -26,7 +26,7 @@ decifrado = decrypt_message(cifrado, chave)
 print(f"Decifrado: {decifrado}")
 ```
 
-## 📊 Sistema de Logging
+## Sistema de Logging
 
 O sistema de logging mostra cada etapa do processo:
 
@@ -58,7 +58,7 @@ INFO - R inicial: 32 bits
 ...
 ```
 
-## 🔧 Funcionalidades do Logging
+## Funcionalidades do Logging
 
 - **Geração de subchaves**: PC-1, shifts circulares, PC-2
 - **16 rodadas Feistel**: Estado L/R, função F, XORs
@@ -66,7 +66,7 @@ INFO - R inicial: 32 bits
 - **Permutações**: IP, E, P, FP
 - **Conversões**: Bits ↔ inteiros, padding
 
-## ⚠️ Aviso Importante
+## Aviso Importante
 
 Esta implementação é para **fins educacionais apenas**. O DES é considerado criptograficamente inseguro pelos padrões atuais devido ao tamanho pequeno da chave (56 bits efetivos). Para aplicações reais, use algoritmos modernos como AES.
 
@@ -82,7 +82,7 @@ des_implementation.py    # Implementação completa com logging
 └── Utilitários         # Conversões, padding
 ```
 
-## 🎯 Objetivos Educacionais
+## Objetivos Educacionais
 
 Este projeto ajuda a entender:
 - Como funciona o algoritmo DES step-by-step
@@ -91,7 +91,7 @@ Este projeto ajuda a entender:
 - Geração e uso de subchaves
 - Padding e modos de operação
 
-## 📖 Exemplo Completo
+## Exemplo Completo
 
 ```python
 # Configurar nível de detalhe
@@ -110,7 +110,7 @@ print(f"Cifrado:  {encrypted}")
 print(f"Decifrado: {decrypted}")
 ```
 
-## 📚 Recursos Educacionais
+## Recursos Educacionais
 
 - Cada função tem documentação detalhada
 - Logs mostram valores intermediários em hexadecimal e binário
