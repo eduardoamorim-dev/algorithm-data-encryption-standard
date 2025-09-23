@@ -70,7 +70,7 @@ INFO - R inicial: 32 bits
 
 Esta implementação é para **fins educacionais apenas**. O DES é considerado criptograficamente inseguro pelos padrões atuais devido ao tamanho pequeno da chave (56 bits efetivos). Para aplicações reais, use algoritmos modernos como AES.
 
-## 📁 Estrutura
+## Estrutura
 
 ```
 des_implementation.py    # Implementação completa com logging
